@@ -12,6 +12,7 @@ you might want to change up tweet a bit each time.
 Also, I created this handy dandy delete snippet below that will help you remove all tweets you made in the last certain amount of time.
 
 For example, right now it is set to remove all tweets you made in the last 1 hour. If you want, you could change
+
 ```if datetime.now()-timedelta(hours=Hours) <= tweet.created_at: ```
 
 to
