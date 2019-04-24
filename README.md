@@ -33,7 +33,7 @@ to
 
 ```if datetime.now()-timedelta(minutes=Hours) <= tweet.created_at:```
 
-to make it remove minutes instead.
+and change your Hours variable to like 30 for example to make it remove the last 30 minutes instead.
 
 ----------------------------------
 
