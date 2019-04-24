@@ -79,7 +79,8 @@ def get_tweets(api, username):
         page+=1
         time.sleep(500)
 
-get_tweets(api, name)```
+get_tweets(api, name)
+```
 
 
 ----------------------------------------------
