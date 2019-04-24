@@ -66,9 +66,15 @@ def get_tweets(api, username):
 get_tweets(api, name)```
 
 
---------------------------------------------------------------------
+# Requirement
 
-Tidbit - I most definitely enjoy sharing code with others and helping people 
-for free without EVER asking anything in return, but if you found this example 
-useful and would like to buy me a cup of coffee or something, feel free to send 
-a dollar or two to paypal.me/jhayes88 if you'd like. Tips are always appreciated <3
+You will need a twitter API access key. It's not hard to get. 
+Sign up for one at https://developer.twitter.com/en/apply-for-access.html
+Once you have your API keys, scroll 1/3 of the way down the script and look for 'AUTHENTICATION' and add your API key there.
+
+----------------------------------------------
+
+
+
+Tidbit - I most definitely enjoy sharing code with others and helping people for free without EVER asking anything in return, but if you found this example useful and would like to buy me a cup of coffee or something, feel free to send a dollar or two to paypal.me/jhayes88 if you'd like. Tips are always appreciated <3 
+
