@@ -6,6 +6,12 @@ It's just a slightly modified version of that script.
 Pay particular attention to line 168 through line 175 for the reply functionality.
 The trigger keyword(like !command) is at line 51
 
+Don't forget you can also set up multiple search filters to listen for, so you can do something like this
+
+search = ['!command1', !command2']
+
+and do different logic depending on what the trigger word is.
+
 # Important
 
 Twitter doesn't like it when you tweet the same message a lot. If you get a duplicate message error, 
