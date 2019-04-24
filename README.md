@@ -11,6 +11,16 @@ The trigger keyword(like !command) is at line 51
 Twitter doesn't like it when you tweet the same message a lot. If you get a duplicate message error, 
 you might want to change up tweet a bit each time.
 
+
+
+# Requirement
+
+You will need a twitter API access key. It's not hard to get. 
+Sign up for one at https://developer.twitter.com/en/apply-for-access.html
+Once you have your API keys, scroll 1/3 of the way down the script and look for 'AUTHENTICATION' and add your API key there.
+
+
+
 # Delete helper
 
 Also, I created this little delete snippet below that will help you remove all tweets you made in the last certain amount of time for whenever you're testing your bot. This is so you don't have to keep going to twitter and manually removing your tweets. 
@@ -64,13 +74,6 @@ def get_tweets(api, username):
         time.sleep(500)
 
 get_tweets(api, name)```
-
-
-# Requirement
-
-You will need a twitter API access key. It's not hard to get. 
-Sign up for one at https://developer.twitter.com/en/apply-for-access.html
-Once you have your API keys, scroll 1/3 of the way down the script and look for 'AUTHENTICATION' and add your API key there.
 
 ----------------------------------------------
 
