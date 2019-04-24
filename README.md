@@ -13,7 +13,7 @@ you might want to change up tweet a bit each time.
 
 # Delete helper
 
-Also, I created this little delete snippet below that will help you remove all tweets you made in the last certain amount of time.
+Also, I created this little delete snippet below that will help you remove all tweets you made in the last certain amount of time for whenever you're testing your bot. This is so you don't have to keep going to twitter and manually removing your tweets. 
 
 For example, right now it is set to remove all tweets you made in the last 1 hour. If you want, you could change
 
