@@ -10,14 +10,14 @@ Don't forget you can also set up multiple search filters to listen for, so you c
 
 search = ['!command1', !command2']
 
-and do different logic depending on what the trigger word is.
+and do different logic depending on what the trigger word is. 
 
 # Important
 
 Twitter doesn't like it when you tweet the same message a lot. If you get a duplicate message error, 
 you might want to change up tweet a bit each time.
 
-
+Don't attempt to use a bot that listens to all tweets. It won't catch everything. Use a search filter like the one above. Don't use something like this ['.','a','@','\'','this','to',':(','?','!','$']
 
 # Requirement
 
