@@ -25,7 +25,9 @@ to
 
 to make it remove minutes instead.
 
-# Delete Snippet
+----------------------------------
+
+Delete Script:
 
 ```import tweepy, datetime, time
 from datetime import datetime, timedelta
