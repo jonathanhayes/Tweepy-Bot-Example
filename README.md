@@ -6,10 +6,14 @@ It's just a slightly modified version of that script.
 Pay particular attention to line 168 through line 175 for the reply functionality.
 The trigger keyword(like !command) is at line 51
 
-Important to note - Twitter doesn't like it when you tweet the same message a lot. If you get a duplicate message error, 
+# Important
+
+Twitter doesn't like it when you tweet the same message a lot. If you get a duplicate message error, 
 you might want to change up tweet a bit each time.
 
-Also, I created this handy dandy delete snippet below that will help you remove all tweets you made in the last certain amount of time.
+# Delete helper
+
+Also, I created this little delete snippet below that will help you remove all tweets you made in the last certain amount of time.
 
 For example, right now it is set to remove all tweets you made in the last 1 hour. If you want, you could change
 
@@ -19,7 +23,9 @@ to
 
 ```if datetime.now()-timedelta(minutes=Hours) <= tweet.created_at:```
 
-to make it remove minutes instead
+to make it remove minutes instead.
+
+# Delete Snippet
 
 ```import tweepy, datetime, time
 from datetime import datetime, timedelta
