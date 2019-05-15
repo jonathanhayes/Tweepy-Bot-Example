@@ -37,9 +37,9 @@ For example, right now it is set to remove all tweets you made in the last 1 hou
 
 to
 
-```if datetime.now()-timedelta(minutes=Hours) <= tweet.created_at:```
+```if datetime.now()-timedelta(minutes=30) <= tweet.created_at:```
 
-and set your Hours variable to like 30 for example to make it remove the last 30 minutes instead.
+to make it remove the last 30 minutes instead.
 
 ----------------------------------
 
