@@ -31,7 +31,7 @@ Once you have your API keys, scroll 1/3 of the way down the script and look for 
 
 Also, I created this little delete snippet below that will help you remove all tweets you made in the last certain amount of time for whenever you're testing your bot. This is so you don't have to keep going to twitter and manually removing your tweets. 
 
-For example, right now it is set to remove all tweets you made in the last 1 hour. If you want, you could change
+For example, right now it is set to remove all tweets you made in the last 1 hour. That number is set in the Hours variable. If you want, you could change
 
 ```if datetime.now()-timedelta(hours=Hours) <= tweet.created_at: ```
 
